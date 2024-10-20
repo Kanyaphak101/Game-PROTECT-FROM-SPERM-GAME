@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 4</name>
+    <events>
+        <event-block sid="577219211377524">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="873181344842735" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="125094317325687" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="0" name="Play" sid="811007259601883" type="เพลงของเกม">
+                    <param id="0" name="Audio file">นาฬิกา</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="610791516540801">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="792563019224886" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="699796470711368" type="Text3">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="218800114418281">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="377144731183209" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="474253588231856" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="499438742766345">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="548331540324007" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="679694283605981" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="948628798866133" type="System">
+                            <param id="0" name="Layout">เกม</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

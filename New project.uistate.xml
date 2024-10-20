@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">เกม</layout>
+        <layout active="1" order="1">คะแนน top</layout>
+        <layout order="4">Layout 1</layout>
+        <layout order="7">วิธีเล่น</layout>
+        <event-sheet order="2">Event sheet 4</event-sheet>
+        <event-sheet order="3">Event sheet 2</event-sheet>
+        <event-sheet order="5">Event sheet 1</event-sheet>
+        <event-sheet order="6">Event sheet 3</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/play/" />
+        <folder expanded="1" path="animation-folder/วิธีเล่น/" />
+        <folder expanded="1" path="animation-folder/ออก/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/ป้ายเกม/" />
+        <folder expanded="1" path="animation-folder/bgเกม/" />
+        <folder expanded="1" path="animation-folder/ตั้งค่า/" />
+        <folder expanded="1" path="animation-folder/กล่องถุงยาง/" />
+        <folder expanded="1" path="animation-folder/ป้ายวิธีเล่น/" />
+        <folder expanded="1" path="animation-folder/ชี้บน/" />
+        <folder expanded="1" path="animation-folder/ชี้ล่าง/" />
+        <folder expanded="1" path="animation-folder/เทป/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/กระสุน/" />
+        <folder expanded="1" path="animation-folder/้ชื้อ1/" />
+        <folder expanded="1" path="animation-folder/จุด/" />
+        <folder expanded="1" path="animation-folder/เชื้อ2/" />
+        <folder expanded="1" path="animation-folder/จุด2/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/จุด3/" />
+        <folder expanded="1" path="animation-folder/เชื้อ4/" />
+        <folder expanded="1" path="animation-folder/จุด5/" />
+        <folder expanded="1" path="animation-folder/สกอ/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/Sprite7/" />
+        <folder expanded="1" path="animation-folder/Sprite8/" />
+        <folder expanded="1" path="animation-folder/Sprite9/" />
+        <folder expanded="1" path="animation-folder/เชื่อ5/" />
+        <folder expanded="1" path="animation-folder/เวลา/" />
+        <folder expanded="1" path="animation-folder/bg2/" />
+        <folder expanded="1" path="animation-folder/bgpopup/" />
+        <folder expanded="1" path="animation-folder/popup/" />
+        <folder expanded="1" path="animation-folder/กลับ/" />
+        <folder expanded="1" path="animation-folder/bg/" />
+        <folder expanded="1" path="animation-folder/ชน/" />
+        <folder expanded="1" path="animation-folder/Sprite10/" />
+    </folders-expanded>
+</c2uistate>

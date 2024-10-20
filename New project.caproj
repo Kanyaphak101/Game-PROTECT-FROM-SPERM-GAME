@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>p6h808wgm152</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
+        <behavior author="Scirra" id="wrap" version="1">Wrap</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="812447135049327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="723834362794543" speed="5">
+                    <frame duration="1" hotspotX="0.500571" hotspotY="0.5" original-source="E:\proj\bg1.png">
+                        <collision-poly>
+                            <point x="0.00863905" y="0.0150547" />
+                            <point x="0.989586" y="0.0181481" />
+                            <point x="0.995621" y="0.99237" />
+                            <point x="0.000591716" y="0.998969" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="play" sid="495114097901645">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498827032360561" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.505747" original-source="E:\proj\ปุ่มเริ่มอ่ะจ้าา.png">
+                        <collision-poly>
+                            <point x="0.0451805" y="0.102765" />
+                            <point x="0.5" y="0.0197916" />
+                            <point x="0.951174" y="0.111062" />
+                            <point x="0.993101" y="0.498963" />
+                            <point x="0.942971" y="0.870269" />
+                            <point x="0.5" y="0.988506" />
+                            <point x="0.056118" y="0.872343" />
+                            <point x="0.0059876" y="0.498963" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="วิธีเล่น" sid="961869946149228">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="409152621243125" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.505747" original-source="E:\proj\วิธีอะไร.png">
+                        <collision-poly>
+                            <point x="0.0451805" y="0.102765" />
+                            <point x="0.5" y="0.0177173" />
+                            <point x="0.951174" y="0.111062" />
+                            <point x="0.993101" y="0.498963" />
+                            <point x="0.942971" y="0.870269" />
+                            <point x="0.5" y="0.986431" />
+                            <point x="0.0570295" y="0.870269" />
+                            <point x="0.0059876" y="0.498963" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ออก" sid="542933622336193">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416702337644046" speed="5">
+                    <frame duration="1" hotspotX="0.502538" hotspotY="0.505747" original-source="E:\proj\Untitled-13.png">
+                        <collision-poly>
+                            <point x="0.0460919" y="0.104642" />
+                            <point x="0.5" y="0.019774" />
+                            <point x="0.951174" y="0.110851" />
+                            <point x="0.994012" y="0.5" />
+                            <point x="0.942971" y="0.870519" />
+                            <point x="0.5" y="0.986436" />
+                            <point x="0.0570295" y="0.870519" />
+                            <point x="0.00689907" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="569821912794678">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Browser" sid="933169317442200">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Sprite2" sid="563178411289984">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849810954541233" speed="5">
+                    <frame duration="1" hotspotX="0.500571" hotspotY="0.5" original-source="E:\proj\bg1.png">
+                        <collision-poly>
+                            <point x="0.00863905" y="0.0150547" />
+                            <point x="0.989586" y="0.0181481" />
+                            <point x="0.995621" y="0.99237" />
+                            <point x="0.000591716" y="0.998969" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ป้ายเกม" sid="699075147371969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="577917021307736" speed="5">
+                    <frame duration="1" hotspotX="0.501075" hotspotY="0.5" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\ชื่อเกม.png">
+                        <collision-poly>
+                            <point x="0.0545382" y="0.1049" />
+                            <point x="0.5" y="0.0620214" />
+                            <point x="0.880573" y="0.229709" />
+                            <point x="0.948646" y="0.5" />
+                            <point x="0.902866" y="0.81317" />
+                            <point x="0.5" y="0.959418" />
+                            <point x="0.0696656" y="0.866003" />
+                            <point x="0.0374204" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bgเกม" sid="357951442109894">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="450664996158113">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Wrap" sid="581356385986166">
+                    <behavior id="wrap" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589806808527066" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\พื้นหลังเกม.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.999375" y="0.00111408" />
+                            <point x="0.9995" y="0.999109" />
+                            <point x="0.000124922" y="0.999777" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ตั้งค่า" sid="336525853680086">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299341488514574" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lenovo\Downloads\Lovepik_com-401253373-settings-button.png">
+                        <collision-poly>
+                            <point x="0.173103" y="0.173103" />
+                            <point x="0.491379" y="0.0414224" />
+                            <point x="0.809655" y="0.173103" />
+                            <point x="0.941336" y="0.491379" />
+                            <point x="0.809655" y="0.809655" />
+                            <point x="0.491379" y="0.941336" />
+                            <point x="0.173103" y="0.809655" />
+                            <point x="0.0414224" y="0.491379" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="กล่องถุงยาง" sid="560431150743099">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="8Direction" sid="736241144309052">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="261326578960780">
+                    <behavior id="bound" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697444437116677" speed="5">
+                    <frame duration="1" hotspotX="0.477419" hotspotY="0.483333" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\กล่องถุงยาง.png">
+                        <image-point name="Imagepoint 1" x="1.10323" y="0.408333" />
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.476879" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0.49232" />
+                            <point x="0.981187" y="1" />
+                            <point x="0.476879" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0.49232" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ป้ายวิธีเล่น" sid="138373085893746">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671634696444736" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\วิเล่น.png">
+                        <collision-poly>
+                            <point x="0.0360059" y="0.0575668" />
+                            <point x="0.5" y="0.00118694" />
+                            <point x="0.950631" y="0.0789317" />
+                            <point x="0.998886" y="0.499703" />
+                            <point x="0.950631" y="0.921068" />
+                            <point x="0.5" y="0.998813" />
+                            <point x="0.0360059" y="0.942433" />
+                            <point x="0" y="0.499703" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ชี้บน" sid="926840850263992">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885689153285034" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.507692" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\ขึ้น.png">
+                        <collision-poly>
+                            <point x="0.0763889" y="0.116402" />
+                            <point x="0.5" y="0.00529101" />
+                            <point x="0.920139" y="0.121693" />
+                            <point x="0.993056" y="0.497355" />
+                            <point x="0.923611" y="0.883598" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0729167" y="0.888889" />
+                            <point x="0.00347222" y="0.497355" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ชี้ล่าง" sid="878628190099503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416582874584173" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.507692" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\ขึ้น.png">
+                        <collision-poly>
+                            <point x="0.00347222" y="0.502645" />
+                            <point x="0.0729167" y="0.111111" />
+                            <point x="0.5" y="0" />
+                            <point x="0.923611" y="0.116402" />
+                            <point x="0.993056" y="0.502645" />
+                            <point x="0.920139" y="0.878307" />
+                            <point x="0.5" y="0.994709" />
+                            <point x="0.0763889" y="0.883598" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เทป" sid="177480015651406">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="159219733333649" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506667" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เทป.png">
+                        <collision-poly>
+                            <point x="0.0156352" y="0.137143" />
+                            <point x="0.499674" y="0.0114286" />
+                            <point x="0.985016" y="0.131429" />
+                            <point x="0.999349" y="0.497143" />
+                            <point x="0.985668" y="0.874286" />
+                            <point x="0.499674" y="1" />
+                            <point x="0.0149837" y="0.868571" />
+                            <point x="0.000651466" y="0.497143" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="324687968246343">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="287142624884192" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.507692" original-source="E:\proj\ถัดไป.png">
+                        <collision-poly>
+                            <point x="0.141345" y="0.162256" />
+                            <point x="0.5" y="0.000433839" />
+                            <point x="0.866213" y="0.153579" />
+                            <point x="1" y="0.499783" />
+                            <point x="0.858655" y="0.837744" />
+                            <point x="0.5" y="1" />
+                            <point x="0.134543" y="0.845553" />
+                            <point x="0" y="0.499783" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เด" sid="694730538732300">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="หดห" sid="952693521896993">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="กระสุน" sid="570717936039230">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="977476962273869">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="DestroyOutsideLayout" sid="929377611853248">
+                    <behavior id="destroy" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="868496116923177">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="522527591993009" speed="5">
+                    <frame duration="1" hotspotX="0.507246" hotspotY="0.509091" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\ถุงยาง2.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="jim" pingpong="0" repeatcount="1" repeatto="0" sid="438187943649466" speed="1">
+                    <frame duration="1" hotspotX="0.501961" hotspotY="0.507692" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\56&apos;pk&apos;11.png">
+                        <collision-poly>
+                            <point x="0.959975" y="0.114338" />
+                            <point x="0.999365" y="0.499093" />
+                            <point x="0.956798" y="0.876588" />
+                            <point x="0.777001" y="0.499093" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="331576230876446">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="้ชื้อ1" sid="535091138812232">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="max" sid="622345504628330" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="152644389998156">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="210694767005648">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="976461767029465" speed="10">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.509091" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\11.png" />
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\22.png" />
+                </animation>
+                <animation framecount="5" loop="0" name="yoyo" pingpong="0" repeatcount="1" repeatto="0" sid="788146740637856" speed="5">
+                    <frame duration="0.5" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="จุด" sid="469887041737418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367178929088541" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เชื้อ2" sid="389110168185667">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="max" sid="899548969065616" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Rotate" sid="410619078304421">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Bullet" sid="711318885337815">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="990875033173888" speed="5">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.509091" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\เชื้อ1.png">
+                        <collision-poly>
+                            <point x="0.257672" y="0.274861" />
+                            <point x="0.49971" y="0.000617665" />
+                            <point x="0.895773" y="0.11118" />
+                            <point x="0.8315" y="0.499691" />
+                            <point x="0.744644" y="0.72761" />
+                            <point x="0.49971" y="0.970352" />
+                            <point x="0.185292" y="0.802347" />
+                            <point x="0.00115808" y="0.499691" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="จุด2" sid="377827533210729">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826427698216618" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="217339537475281">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="max" sid="457317844936567" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="293908814415147">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="516476854178434">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="719994333052458" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\หนองใน.png">
+                        <collision-poly>
+                            <point x="0.119542" y="0.15463" />
+                            <point x="0.499642" y="0.0037037" />
+                            <point x="0.880458" y="0.15463" />
+                            <point x="1" y="0.5" />
+                            <point x="0.883321" y="0.849074" />
+                            <point x="0.499642" y="0.999074" />
+                            <point x="0.116679" y="0.849074" />
+                            <point x="0.00071582" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="จุด3" sid="964465794366218">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377215801596786" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เชื้อ4" sid="797228442777577">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="max" sid="930408335918288" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="436619784490546">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="598366782046188" speed="5">
+                    <frame duration="1" hotspotX="0.507042" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\เอดส์ 1.png">
+                        <collision-poly>
+                            <point x="0.0553097" y="0.226757" />
+                            <point x="0.5" y="0.210884" />
+                            <point x="0.875" y="0.512472" />
+                            <point x="0.947456" y="0.498866" />
+                            <point x="0.89104" y="0.553288" />
+                            <point x="0.5" y="0.439909" />
+                            <point x="0.0536504" y="0.780045" />
+                            <point x="0.00165927" y="0.498866" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\เออส์2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="จุด5" sid="353366767762982">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381434671797113" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="สกอ" sid="844448890043239">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730690106055778" speed="5">
+                    <frame duration="1" hotspotX="0.501075" hotspotY="0.512821" original-source="C:\Users\Lenovo\Downloads\กหหก.png">
+                        <collision-poly>
+                            <point x="0.0451613" y="0.538462" />
+                            <point x="0.498925" y="0" />
+                            <point x="0.952688" y="0.564103" />
+                            <point x="0.952688" y="0.435897" />
+                            <point x="0.498925" y="1" />
+                            <point x="0.0451613" y="0.461538" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="868726656162930">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894847312359045" speed="5">
+                    <frame duration="1" hotspotX="0.485714" hotspotY="0.485714" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\11.png">
+                        <collision-poly>
+                            <point x="0.242967" y="0.286145" />
+                            <point x="0.499574" y="0.0532129" />
+                            <point x="0.757033" y="0.285141" />
+                            <point x="0.849957" y="0.498996" />
+                            <point x="0.883205" y="0.86245" />
+                            <point x="0.499574" y="0.955823" />
+                            <point x="0.115942" y="0.86245" />
+                            <point x="0.14919" y="0.498996" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="675366825844655">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123825195417816" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\เชื้อ1.png">
+                        <collision-poly>
+                            <point x="0.257672" y="0.274861" />
+                            <point x="0.49971" y="0.000617665" />
+                            <point x="0.895773" y="0.11118" />
+                            <point x="0.8315" y="0.499691" />
+                            <point x="0.744644" y="0.72761" />
+                            <point x="0.49971" y="0.970352" />
+                            <point x="0.185292" y="0.802347" />
+                            <point x="0.00115808" y="0.499691" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="603407560195328">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="927918005061564" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\แปแ.png">
+                        <collision-poly>
+                            <point x="0.113208" y="0.114983" />
+                            <point x="0.499142" y="0.00174216" />
+                            <point x="0.814751" y="0.188153" />
+                            <point x="0.987993" y="0.5" />
+                            <point x="0.855918" y="0.853659" />
+                            <point x="0.499142" y="0.998258" />
+                            <point x="0.132075" y="0.865854" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="815190559956539">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="147020124381419" speed="5">
+                    <frame duration="1" hotspotX="0.514286" hotspotY="0.514286" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\หนองใน.png">
+                        <collision-poly>
+                            <point x="0.119542" y="0.15463" />
+                            <point x="0.499642" y="0.0037037" />
+                            <point x="0.880458" y="0.15463" />
+                            <point x="1" y="0.5" />
+                            <point x="0.883321" y="0.849074" />
+                            <point x="0.499642" y="0.999074" />
+                            <point x="0.116679" y="0.849074" />
+                            <point x="0.00071582" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="585076796926258">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848570512778664" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.52" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\เออส์2.png">
+                        <collision-poly>
+                            <point x="0.0552486" y="0.226757" />
+                            <point x="0.5" y="0.544218" />
+                            <point x="0.894475" y="0.433107" />
+                            <point x="0.964088" y="0.498866" />
+                            <point x="0.871271" y="0.471655" />
+                            <point x="0.5" y="0.773243" />
+                            <point x="0.0535912" y="0.780045" />
+                            <point x="0.00110497" y="0.498866" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เชื่อ5" sid="739343899961694">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="max" sid="169071177809127" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="460430348019327">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Rotate" sid="170334870232361">
+                    <behavior id="Rotate" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="601176063699466" speed="5">
+                    <frame duration="1" hotspotX="0.511111" hotspotY="0.511111" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\เชื้อโรค\แปแ.png">
+                        <collision-poly>
+                            <point x="0.113208" y="0.114983" />
+                            <point x="0.499142" y="0.00174216" />
+                            <point x="0.814751" y="0.188153" />
+                            <point x="0.987993" y="0.5" />
+                            <point x="0.855918" y="0.853659" />
+                            <point x="0.499142" y="0.998258" />
+                            <point x="0.132075" y="0.865854" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เวลา" sid="629228057792235">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="634908528230077" speed="5">
+                    <frame duration="1" hotspotX="0.506667" hotspotY="0.506667" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\Untitled-1.png">
+                        <collision-poly>
+                            <point x="0.151207" y="0.153153" />
+                            <point x="0.499365" y="0.001287" />
+                            <point x="0.836086" y="0.166023" />
+                            <point x="0.895807" y="0.499357" />
+                            <point x="0.832274" y="0.830116" />
+                            <point x="0.499365" y="0.998713" />
+                            <point x="0.167726" y="0.830116" />
+                            <point x="0.104193" y="0.499357" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="928574113304348">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="447887421663049">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="bg2" sid="996414430101375">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783969748681868" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\พื้นหลังเกม.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.999375" y="0.00111408" />
+                            <point x="0.9995" y="0.999109" />
+                            <point x="0.000124922" y="0.999777" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="813113747096557">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="คะแนน" sid="180815450310109">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="bgpopup" sid="828250524001351">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="528821173291673" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="popup" sid="148078679703067">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="540889308870487" speed="5">
+                    <frame duration="1" hotspotX="0.50365" hotspotY="0.504399" original-source="C:\Users\Lenovo\Downloads\yk.png">
+                        <collision-poly>
+                            <point x="0.0802213" y="0.096828" />
+                            <point x="0.499308" y="0" />
+                            <point x="0.980636" y="0.0233723" />
+                            <point x="0.986169" y="0.499165" />
+                            <point x="0.951591" y="0.941569" />
+                            <point x="0.499308" y="1" />
+                            <point x="0.0414938" y="0.949917" />
+                            <point x="0" y="0.499165" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="เพลงของเกม" sid="798363883293824">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="กลับ" sid="429184482707688">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="261992096301671" speed="5">
+                    <frame duration="1" hotspotX="0.509091" hotspotY="0.509091" original-source="E:\proj\ปุ่มถัดไป.png">
+                        <collision-poly>
+                            <point x="0.142529" y="0.154229" />
+                            <point x="0.498851" y="0" />
+                            <point x="0.85977" y="0.151741" />
+                            <point x="1" y="0.5" />
+                            <point x="0.85977" y="0.848259" />
+                            <point x="0.498851" y="0.997512" />
+                            <point x="0.142529" y="0.845771" />
+                            <point x="0.00229885" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg" sid="448066556979373">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="232791819514432" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Lenovo\OneDrive\เดสก์ท็อป\โปรเจค-Game-jimcondom\พื้นหลังเกม.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.999375" y="0.00111408" />
+                            <point x="0.9995" y="0.999109" />
+                            <point x="0.000124922" y="0.999777" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="textSc" sid="176689131711828">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="Array3" sid="780725047782280">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="ชน" sid="167230101502346">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="640236113368313" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\proj\Untitled-2.png">
+                        <collision-poly>
+                            <point x="0.0217391" y="0.000521376" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.0217391" y="0.999479" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WebStorage" sid="616419870323369">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="Button" sid="977557797054944">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Text2" sid="929418972280907">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Text3" sid="608581643374495">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite10" sid="959646576105870">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="254929232064626" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>เกม.xml</layout>
+        <layout>วิธีเล่น.xml</layout>
+        <layout>คะแนน top.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Browser" uid="5" />
+        <global-instance type="Keyboard" uid="19" />
+        <global-instance type="เพลงของเกม" uid="30">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="WebStorage" uid="63" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="คลิก.ogg" />
+        <file name="select-sound-121244.m4a" />
+        <file name="select-sound-121244.ogg" />
+        <file name="yt1s.com - Sound Effect  EP 5  เสยง Sound ทำ Vlog  เสยงเพลง นารกๆๆ Cute Background Music soundเพลงตดตอ.m4a" />
+        <file name="yt1s.com - Sound Effect  EP 5  เสยง Sound ทำ Vlog  เสยงเพลง นารกๆๆ Cute Background Music soundเพลงตดตอ.ogg" />
+        <file name="นาฬิกา.m4a" />
+        <file name="นาฬิกา.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

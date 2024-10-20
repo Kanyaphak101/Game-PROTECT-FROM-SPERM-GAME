@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="128759318036522">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="322970755129417" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Sprite3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="874977926333887" type="System">
+                    <param id="0" name="Layout">คะแนน top</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="413664798204420" title="ปุ่มขึ้น">
+            <sub-events>
+                <event-block sid="181730326264949">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="996328136072885" type="Mouse">
+                            <param id="0" name="Object">ชี้บน</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="178063609923421" type="ชี้บน">
+                            <param id="0" name="Width">80</param>
+                            <param id="1" name="Height">70</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="383936730862218">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="810176242030278" type="Mouse">
+                            <param id="0" name="Object">ชี้บน</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="859780715572492" type="ชี้บน">
+                            <param id="0" name="Width">75</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="981311219827298" title="ปุ่มลง">
+            <sub-events>
+                <event-block sid="192821865429368">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="400173573934163" type="Mouse">
+                            <param id="0" name="Object">ชี้ล่าง</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="242495025764680" type="ชี้ล่าง">
+                            <param id="0" name="Width">80</param>
+                            <param id="1" name="Height">70</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="844857930934909">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="278056177022040" type="Mouse">
+                            <param id="0" name="Object">ชี้ล่าง</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="682606265662336" type="ชี้ล่าง">
+                            <param id="0" name="Width">75</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="991992700304580" title="ปุ่มเทป">
+            <sub-events>
+                <event-block sid="301014778641986">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="191617288420924" type="Mouse">
+                            <param id="0" name="Object">เทป</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="776699971355653" type="เทป">
+                            <param id="0" name="Width">461</param>
+                            <param id="1" name="Height">70</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="901652401876382">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="915901512708362" type="Mouse">
+                            <param id="0" name="Object">เทป</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="868910826385866" type="เทป">
+                            <param id="0" name="Width">456</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="256756072321590" title="ปุ่มถัดไป">
+            <sub-events>
+                <event-block sid="327826178721325">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="441513308420629" type="Mouse">
+                            <param id="0" name="Object">Sprite3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="252894614814677" type="Sprite3">
+                            <param id="0" name="Width">80</param>
+                            <param id="1" name="Height">70</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="746970399793158">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="521431414887772" type="Mouse">
+                            <param id="0" name="Object">Sprite3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="929602348398863" type="Sprite3">
+                            <param id="0" name="Width">75</param>
+                            <param id="1" name="Height">65</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="511781574693370" title="ป้าย">
+            <sub-events>
+                <event-block sid="807267387806078">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="400783635963025" type="Mouse">
+                            <param id="0" name="Object">ป้ายวิธีเล่น</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="240762455308133" type="ป้ายวิธีเล่น">
+                            <param id="0" name="Width">556</param>
+                            <param id="1" name="Height">422</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="928070272473947">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="270868958045679" type="Mouse">
+                            <param id="0" name="Object">ป้ายวิธีเล่น</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="623779983714126" type="ป้ายวิธีเล่น">
+                            <param id="0" name="Width">546</param>
+                            <param id="1" name="Height">412</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="130770020995934">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="447253344248564" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">play</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="730826798709119" type="System">
+                    <param id="0" name="Layout">วิธีเล่น</param>
+                </action>
+                <action id="0" name="Play" sid="573757224418569" type="เพลงของเกม">
+                    <param id="0" name="Audio file">คลิก</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="564016385681078">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="429084821268315" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ออก</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="747207858776979" type="Browser" />
+                <action id="0" name="Play" sid="190761480864834" type="เพลงของเกม">
+                    <param id="0" name="Audio file">คลิก</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="855117056272741">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="477490431842292" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">วิธีเล่น</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="734198543931902" type="System">
+                    <param id="0" name="Layout">วิธีเล่น</param>
+                </action>
+                <action id="0" name="Play" sid="830101320664448" type="เพลงของเกม">
+                    <param id="0" name="Audio file">คลิก</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="216769028353884" title="ปุ่มplay">
+            <sub-events>
+                <event-block sid="867104206747651">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="582497951971977" type="Mouse">
+                            <param id="0" name="Object">play</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="245501373528858" type="play">
+                            <param id="0" name="Width">200</param>
+                            <param id="1" name="Height">92</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="234852355929429">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="944887142715876" type="Mouse">
+                            <param id="0" name="Object">play</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="651594633442395" type="play">
+                            <param id="0" name="Width">195</param>
+                            <param id="1" name="Height">87</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="383904904343427" title="ปุ่มวิธีเล่น">
+            <sub-events>
+                <event-block sid="764895221572859">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="644958941733322" type="Mouse">
+                            <param id="0" name="Object">วิธีเล่น</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="331962351584279" type="วิธีเล่น">
+                            <param id="0" name="Width">200</param>
+                            <param id="1" name="Height">92</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="626419985043071">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="580101776340177" type="Mouse">
+                            <param id="0" name="Object">วิธีเล่น</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="402881050811778" type="วิธีเล่น">
+                            <param id="0" name="Width">195</param>
+                            <param id="1" name="Height">87</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="405111412712366" title="ปุ่มออก">
+            <sub-events>
+                <event-block sid="208656301522815">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="349140640326217" type="Mouse">
+                            <param id="0" name="Object">ออก</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="367005196291353" type="ออก">
+                            <param id="0" name="Width">200</param>
+                            <param id="1" name="Height">92</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="257761953317992">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="316581234389223" type="Mouse">
+                            <param id="0" name="Object">ออก</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="151721890785585" type="ออก">
+                            <param id="0" name="Width">195</param>
+                            <param id="1" name="Height">87</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="428131661572723" title="ป้ายชื่อ">
+            <sub-events>
+                <event-block sid="183424446674183">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="291119435956962" type="Mouse">
+                            <param id="0" name="Object">ป้ายเกม</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="465567448220558" type="ป้ายเกม">
+                            <param id="0" name="Width">475</param>
+                            <param id="1" name="Height">342</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="479025745706588">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="632905378952316" type="Mouse">
+                            <param id="0" name="Object">ป้ายเกม</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="904441820351322" type="ป้ายเกม">
+                            <param id="0" name="Width">465</param>
+                            <param id="1" name="Height">332</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="145017848364050" title="เสียง">
+            <sub-events>
+                <event-block sid="300265515362793">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="610285519639505" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="417225727632363" type="เพลงของเกม">
+                            <param id="0" name="Audio file">yt1s.com - Sound Effect  EP 5  เสยง Sound ทำ Vlog  เสยงเพลง นารกๆๆ Cute Background Music soundเพลงตดตอ</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">-10</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="Score" sid="528728352037625" static="0" type="number">0</variable>
+        <variable constant="0" name="barTimer" sid="948040311610417" static="0" type="number">0</variable>
+        <variable constant="0" name="timer" sid="945854719364802" static="0" type="number">0</variable>
+        <event-group description="" sid="336957225092910" title="ปล่อยกระสุน" />
+        <event-block sid="218748801465687">
+            <conditions>
+                <condition id="2" name="Key is down" sid="735148880366082" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="265246190297004">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="118887033205344" type="System">
+                            <param id="0" name="Interval (seconds)">0.3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="123157763218535" type="กล่องถุงยาง">
+                            <param id="0" name="Object">กระสุน</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                        <action id="0" name="Play" sid="359808615507685" type="เพลงของเกม">
+                            <param id="0" name="Audio file">select-sound-121244</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="241871508881584">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="354364293909619" type="กระสุน">
+                    <param id="0" name="Object">้ชื้อ1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="431914301732848" type="กระสุน">
+                    <param id="0" name="Animation">&quot;jim&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-12" name="Subtract from" sid="858473602457063" type="้ชื้อ1">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="529649795279856">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="850157812652766" type="้ชื้อ1">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="595826513859106" type="้ชื้อ1" />
+                <action id="-10" name="Add to" sid="407225832955536" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="224468308352906">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="444646346772154" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="295701965550745">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="359278652519954" type="System">
+                            <param id="0" name="Object">จุด</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="233357363791562" type="จุด">
+                            <param id="0" name="Object">้ชื้อ1</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="275147391678852">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="352893297165047" type="กระสุน">
+                    <param id="0" name="Object">เชื้อ2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="135311739943568" type="กระสุน" />
+                <action id="-12" name="Subtract from" sid="373296021502696" type="เชื้อ2">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="211937737623995">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="812833108936903" type="เชื้อ2">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="958083272232685" type="เชื้อ2" />
+                <action id="-10" name="Add to" sid="514871850960677" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="818280397167325">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="746884465622680" type="System">
+                    <param id="0" name="Interval (seconds)">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="201687033782919">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="618680749210724" type="System">
+                            <param id="0" name="Object">จุด2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="853649026557074" type="จุด2">
+                            <param id="0" name="Object">เชื้อ2</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="556246714833759">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="260057897116733" type="กระสุน">
+                    <param id="0" name="Object">Sprite4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="395400338363987" type="กระสุน" />
+                <action id="-12" name="Subtract from" sid="926371757074112" type="Sprite4">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="820464428172265">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="679515496192359" type="Sprite4">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="193690371915936" type="Sprite4" />
+                <action id="-10" name="Add to" sid="104613107228084" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="672050641579043">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="532469146428459" type="System">
+                    <param id="0" name="Interval (seconds)">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="338606205166894">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="524356415872187" type="System">
+                            <param id="0" name="Object">จุด3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="781040198222427" type="จุด3">
+                            <param id="0" name="Object">Sprite4</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="173809104594142">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="903766427850570" type="กระสุน">
+                    <param id="0" name="Object">เชื้อ4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="483076827213850" type="กระสุน" />
+                <action id="-12" name="Subtract from" sid="695400709755401" type="เชื้อ4">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="446069569583354">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="119036363525538" type="เชื้อ4">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="450655528744946" type="เชื้อ4" />
+                <action id="-10" name="Add to" sid="101097772134549" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="425696216282136">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="448424784831673" type="System">
+                    <param id="0" name="Interval (seconds)">1</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="515259514594211">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="578632537659505" type="System">
+                            <param id="0" name="Object">จุด5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="398702866414684" type="จุด5">
+                            <param id="0" name="Object">เชื้อ4</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="648098429315987">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="956151170409625" type="กระสุน">
+                    <param id="0" name="Object">เชื่อ5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="529166536195277" type="กระสุน" />
+                <action id="-12" name="Subtract from" sid="552085910804941" type="เชื่อ5">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581137652186683">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="559312314239268" type="เชื่อ5">
+                    <param id="0" name="Instance variable">max</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="120986204311311" type="เชื่อ5" />
+                <action id="-10" name="Add to" sid="679080761145768" type="System">
+                    <param id="0" name="Variable">Score</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="758214338678638">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="184824007484295" type="System">
+                    <param id="0" name="Interval (seconds)">6</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="214681948804016">
+                    <conditions>
+                        <condition id="-16" name="Pick random instance" sid="475812751831509" type="System">
+                            <param id="0" name="Object">จุด</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Spawn another object" sid="460406068811651" type="จุด">
+                            <param id="0" name="Object">เชื่อ5</param>
+                            <param id="1" name="Layer">&quot;Layer 1&quot;</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group description="" sid="751688860767352" title="จับเวลา" />
+        <event-block sid="368563851606704">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="362405551552792" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="670376304748417" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">40</param>
+                </action>
+                <action id="-9" name="Set value" sid="948614156827544" type="System">
+                    <param id="0" name="Variable">barTimer</param>
+                    <param id="1" name="Value">TiledBackground.Width/timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="451041034459319">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="544281580736219" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="441660934522564" type="Text">
+                    <param id="0" name="Text">timer</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="121853518919502">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="153737215652218" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="924540958555982" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-5" name="Set width" sid="930262792111848" type="TiledBackground">
+                    <param id="0" name="Width">TiledBackground.Width-(TiledBackground.Width/timer)+barTimer/timer</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="476393987646604">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="790243851820446" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="460645711189192" type="System">
+                            <param id="0" name="Variable">timer</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="335299443177027">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="479750309068790" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="537646606367321" type="คะแนน">
+                    <param id="0" name="Text">&quot;Score&quot;&amp;Score</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="631859466310058">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="949204942243868" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="379219159770930" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="422161870930913">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="433016517465837" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="801612841636154" type="System">
+                    <param id="0" name="Layer">&quot;popup&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="521815637801793" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action behavior="8Direction" id="8" name="Set enabled" sid="215991714267960" type="กล่องถุงยาง">
+                    <param id="0" name="State">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="287424372957749" type="กระสุน" />
+                <action id="33" name="Stop all" sid="327445402079026" type="เพลงของเกม" />
+            </actions>
+        </event-block>
+        <event-block sid="186439974360330">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="601790470841158" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">กลับ</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="283720566912250" type="System">
+                    <param id="0" name="Layout">Layout 1</param>
+                </action>
+                <action id="-21" name="Reset global variables" sid="168936504385024" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
